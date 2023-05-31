@@ -40,12 +40,12 @@ public:
 		pelajar(pUmur),
 		orang(pUmur) // hal ini dapat dilakukan jika menggunakan virtual
 	{
-		cout, < "Budi dibuat\n" << endl;
+		cout << "Budi dibuat\n" << endl;
 	}
 };
 
 int main() {
 	budi a(12);
 
-	
+	return 0;
 }
