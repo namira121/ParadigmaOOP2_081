@@ -27,3 +27,7 @@ public:
 		cout << "manusia dihapus\n" << endl;
 	}
 };
+
+class pelajar : private manusia, public orang {
+	
+};
