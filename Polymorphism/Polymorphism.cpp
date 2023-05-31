@@ -22,3 +22,7 @@ public:
 		cout << "Tulisan Joko" << endl;
 	}
 };
+
+class Lia : public seseorang {
+
+};
