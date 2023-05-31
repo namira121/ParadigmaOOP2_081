@@ -9,6 +9,6 @@ public:
 	//}
 	//virtual void cetak() = 0;
 	virtual void cetak() {
-
+		 
 	}
 };
