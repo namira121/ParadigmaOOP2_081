@@ -28,3 +28,18 @@ class Lia : public seseorang {
 		cout << "Pesan dari Lia" << endl;
 	}
 };
+
+int main() {
+	seseorang* orang;
+	joko a;
+	Lia b;
+
+	orang = &a;
+	orang->pesan();
+	orang = &b;
+	orang->pesan();
+	//a.seseorang::pesan(); //memanggil method yang berada di class orang tua
+	//b.seseorang::pesan();
+
+	return 0;
+}
